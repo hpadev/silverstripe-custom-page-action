@@ -1,6 +1,6 @@
 {
-    "name": "sasky/silverstripe-custom-page-action",
-    "description": "Allows the easy creation of custom actions on a page in the CMS",
+    "name": "hpadev/silverstripe-custom-page-action",
+    "description": "Allows the easy creation of custom actions on a page in the CMS. sasky/silverstripe-custom-page-action",
     "type": "silverstripe-module",
     "require": {
         "silverstripe/framework": "^4.0",

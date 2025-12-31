@@ -1,0 +1,17 @@
+---
+name: customactionsextensions
+after: 
+  - '#versionedgridfield'
+---
+
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Admin\LeftAndMainFormRequestHandler:
+    class: sasky\customPageAction\CMSCustomFormRequestHandler
+ 
+SilverStripe\Forms\GridField\GridFieldDetailForm_ItemRequest:
+  extensions:
+    - sasky\customPageAction\GridFieldDetailForm_ItemRequestExtension  
+
+SilverStripe\Forms\GridField\GridFieldDetailForm:
+  extensions:
+    - sasky\customPageAction\CustomActionsGridFieldDetailForm

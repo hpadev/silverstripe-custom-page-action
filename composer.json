@@ -1,0 +1,24 @@
+{
+    "name": "sasky/silverstripe-custom-page-action",
+    "description": "Allows the easy creation of custom actions on a page in the CMS",
+    "type": "silverstripe-module",
+    "require": {
+        "silverstripe/framework": "^4.0",
+        "silverstripe/cms": "^4.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "Cameron Grant",
+        "email": "cam@sasky.nz"
+    }],
+    "autoload": {
+        "psr-4": {
+            "sasky\\customPageAction\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
